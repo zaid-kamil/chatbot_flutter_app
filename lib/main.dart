@@ -17,8 +17,13 @@ class ChatBotApp extends StatelessWidget {
       title: "ChatBot",
       theme: ThemeData(
         brightness: Brightness.dark,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
+      ),
+      darkTheme: ThemeData.dark().copyWith(
+        colorScheme: ThemeData.dark().colorScheme.copyWith(
+              primary: Colors.deepPurple.shade800,
+              secondary: const Color(0xFF2C282F),
+            ),
       ),
       home: const ChatScreen(),
       debugShowCheckedModeBanner: false,
