@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/83d4bcec-5ee7-482d-a85b-2160c055955d)
+
 # Chatbot Flutter App
 
 Welcome to the Chatbot Flutter App repository! This project is a Flutter-based chatbot designed for web platforms. It aims to provide a simple and interactive way for users to communicate with an AI-powered chatbot. The app leverages Flutter's capabilities to deliver a smooth and responsive user experience.
